@@ -1,0 +1,11 @@
+# Dữ liệu nhập cho Bài 06 – định dạng: các trường cách nhau bởi dấu |
+[NguoiDung]
+# IDNCC|HoVaTen|QuyenHan
+1|Lê Văn C|Thành viên
+2|Phạm Thị D|Quản trị viên
+
+[MonAn]
+# IDMA|TenMonAn|HinhAnh|IDNCC|LoaiMon|BuoiAn|Gia|VungMien|MoTa
+1|Cơm cháy kho quẹt nhà Nguyên|AUTO|1|Món chính|Trưa,Tối|45000|Miền Nam|Cơm cháy giòn ăn cùng kho quẹt đậm đà.
+2|Chè đậu xanh sen nhà Nguyên|AUTO|2|Tráng miệng|Chiều,Tối|25000|Cả nước|Chè đậu xanh hạt sen thanh mát.
+3|Bánh tráng trộn lớp NT106|AUTO|2|Ăn vặt|Chiều|20000|Miền Nam|Bánh tráng trộn cay nhẹ, nhiều topping.

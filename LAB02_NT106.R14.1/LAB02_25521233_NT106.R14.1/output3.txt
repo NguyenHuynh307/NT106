@@ -1,0 +1,4 @@
+10 / (5 – 5) = Lỗi: Không thể chia cho 0
+(1 + 2 = Lỗi: Thiếu dấu đóng ngoặc ')'
+abc + 1 = Lỗi: Ký tự không hợp lệ 'a' tại vị trí 1
+5 + = Lỗi: Biểu thức chưa hoàn chỉnh
