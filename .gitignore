@@ -9,3 +9,18 @@ bin/
 *.log
 *.tmp
 SSH/
+# .NET / Visual Studio
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build / test packages
+TestResults/
+*.nupkg
+*.snupkg
+
+# OS files
+.DS_Store
+Thumbs.db
