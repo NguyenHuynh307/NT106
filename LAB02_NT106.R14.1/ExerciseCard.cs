@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -12,8 +13,11 @@ namespace Lab02
         private readonly Font detailFont = new Font("Segoe UI", 9F);
         private bool isHovered;
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Number { get; set; } = string.Empty;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Heading { get; set; } = string.Empty;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Detail { get; set; } = string.Empty;
 
         public ExerciseCard()

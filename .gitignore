@@ -1,26 +1,30 @@
+# Existing native/compiler outputs
 *.exe
 *.o
 *.obj
 Debug/
 Release/
-.vs/
 build/
 bin/
-*.log
-*.tmp
-SSH/
-# .NET / Visual Studio
 obj/
+
+# Visual Studio / .NET generated files
+.vs/
+**/bin/
+**/obj/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Build / test packages
+# Build/test packages and temporary files
 TestResults/
 *.nupkg
 *.snupkg
+*.log
+*.tmp
 
-# OS files
+# Local SSH keys and OS files
+SSH/
 .DS_Store
 Thumbs.db
