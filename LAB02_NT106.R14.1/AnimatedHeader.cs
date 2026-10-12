@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -48,12 +49,14 @@ namespace Lab02
             frameTimer.Tick += FrameTimer_Tick;
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Title
         {
             get { return title; }
             set { title = value; ResetCache(); }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Subtitle
         {
             get { return subtitle; }
